@@ -1,0 +1,140 @@
+body {
+  height: 100vh;
+  display: grid;
+  color: rgb(128, 199, 187);
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #13130e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* --- --- --- --- --- SIDEBAR --- --- --- --- --- --- */
+.sidebar {
+  grid-column: 1 / 4;
+  grid-row: 1 / 11;
+  background-color: rgb(244, 120, 244);
+  padding: 2rem 2rem 2rem 2rem;
+}
+.dash-icon {
+  max-height: 55px;
+}
+.title {
+  color: #13130e;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 2rem;
+}
+.nav-link {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(6, 50px);
+  height: 10vh;
+}
+.home-link {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.home-icon {
+  grid-row: 1;
+  max-height: 40px;
+}
+
+.profile-icon {
+  max-height: 40px;
+}
+.profile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.messages-icon {
+  max-height: 40px;
+}
+.messages {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+img {
+  max-height: 40px;
+}
+.notes {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.to-do {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* --- --- --- --- --- Header --- --- --- --- --- --- */
+.header {
+  background-color: #fafaf9;
+  grid-column: 4 / 11;
+  grid-row: 1 / 4;
+  box-shadow: 0px 5px 0px hsl(0, 2%, 80%);
+  display: grid;
+  grid-template-columns: 5fr 0.5fr 0.7fr 2fr;
+  grid-template-rows: 1fr 2fr;
+}
+.card-area {
+  background-color: #e7e5e4;
+  grid-column: 4 / 11;
+  grid-row: 4 / 11;
+}
+.search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 70px;
+}
+#search {
+  margin-top: -30px;
+  height: 20px;
+  min-width: 400px;
+  max-width: 95%;
+  border-radius: 10px;
+  background-color: #e7e5e4;
+}
+.search-icon {
+  margin-top: -30px;
+  max-height: 30px;
+  padding-right: 15px;
+}
+.notification {
+}
+.bell-icon {
+  height: 30px;
+  padding-top: 30px;
+  margin-top: -16px;
+  padding-left: 15px;
+}
+.profile-picture {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+.name {
+  color: black;
+  padding-left: 10px;
+}
+.Hi {
+  justify-content: center;
+  align-items: center;
+}
