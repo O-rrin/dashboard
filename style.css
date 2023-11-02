@@ -69,7 +69,7 @@ a {
   align-items: center;
 }
 img {
-  max-height: 40px;
+  height: 40px;
 }
 .notes {
   display: flex;
@@ -134,7 +134,22 @@ img {
   color: black;
   padding-left: 10px;
 }
-.Hi {
-  justify-content: center;
-  align-items: center;
+.hello-text {
+  margin-left: 100px;
+  margin-bottom: 150px;
+  margin-top: -90px;
+  color: black;
+}
+.greeting-picture{
+  border-radius: 50%;
+  height: 70px;
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.greeting{
+  font-size: 20px;
+}
+.tag-name{
+  font-size: 30px;
 }
